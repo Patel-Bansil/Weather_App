@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div class="card">
+        <div class="search">
+          <input type="text" placeholder="Enter City Name...." value="" autofocus />
+          <button><i class="ri-search-line"></i></button>
+        </div>
+        <div class="weather">
+            <img src="./images/clear.png" alt="" class="weather-icon">
+            <h1 class="temp"></h1>
+            <h2 class="city"></h2>
+            <div class="details">
+                <div class="left">
+                    <img src="https://static-00.iconduck.com/assets.00/humidity-icon-2048x1675-xxsge5os.png" alt="">
+                    <div class="ld">
+                        <h4 class="humidity"></h4>
+                        <p>humidity</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3656/3656551.png" alt="">
+                    <div class="rd">
+                        <h4 class="wind"></h4>
+                        <p>wind speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
